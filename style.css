@@ -1,19 +1,22 @@
-
-
 body {
 	background:url("images/pic1.jpeg");
 	width: 100%;
-
 	font-family: 'Quicksand', sans-serif;
 }
 
+.wrapper{
+	height: 100%;
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
 .center {
 	display: inline-block;
 	position: relative;
 	top: 50%;
 	margin-top: 20%;
   padding-top: 2em;
-  background-color:rgba(0,0,0,0.5);
+  background-color:rgba(0,0,0,0.4);
   padding: 20px;
   border: 1px solid rgba(0,0,0,0.2);
   animation: fadein 4s;
@@ -21,6 +24,7 @@ body {
   -webkit-animation: fadein 4s; /* Safari and Chrome */
   -o-animation: fadein 4s; /* Opera */
 }
+
 
 @keyframes fadein {
     from {
@@ -56,16 +60,20 @@ body {
 }
 
 
-
 h3 {
 	color: #ece8e4;
 	opacity: .9;
 }
 
-.wrapper{
-	height: 100%;
-	width: 95%;
-	margin: 0 auto;
-	text-align: center;
-
+a {
+	text-decoration: none;
+	color: #ece8e4;
+	padding: 5px;
+	border: 1px solid rgba(0,0,0,0.2);
+	margin: 5px;
 }
+
+a:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
