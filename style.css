@@ -3,21 +3,69 @@
 body {
 	background:url("images/pic1.jpeg");
 	width: 100%;
-	height: 100%;
+
+	font-family: 'Quicksand', sans-serif;
 }
 
 .center {
 	display: inline-block;
 	position: relative;
 	top: 50%;
-	height: 4em;
+	margin-top: 20%;
   padding-top: 2em;
   background-color:rgba(0,0,0,0.5);
   padding: 20px;
-  border-radius: 25px;
+  border: 1px solid rgba(0,0,0,0.2);
+  animation: fadein 4s;
+  -moz-animation: fadein 4s; /* Firefox */
+  -webkit-animation: fadein 4s; /* Safari and Chrome */
+  -o-animation: fadein 4s; /* Opera */
 }
 
-h2 {
-	color: white;
-	opacity: 1;
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+h3 {
+	color: #ece8e4;
+	opacity: .9;
+}
+
+.wrapper{
+	height: 100%;
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+
 }
