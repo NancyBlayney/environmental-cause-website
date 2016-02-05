@@ -1,10 +1,30 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
 body {
-	background:url("images/pic1.jpeg");
 	width: 100%;
 	font-family: 'Quicksand', sans-serif;
 }
 
+body.pageone{ 
+	background-image:url("images/pic1.jpeg");
+}
+
+body.about{
+	background-image:url("images/pic2.jpeg");
+}
+
+body.donate {
+	background-image: url("images/pic3.jpeg");
+}
+
+.container{
+		width: 100%;
+
+}
 .wrapper{
+
 	height: 100%;
 	width: 95%;
 	margin: 0 auto;
